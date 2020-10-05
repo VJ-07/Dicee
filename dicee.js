@@ -53,6 +53,9 @@ else{
 if (d1 > d2){
   document.querySelector("h1").innerText = "Player 1 Won!!!!";
 }
-else{
+else if (d1 < d2){
   document.querySelector("h1").innerText = "Player 2 Won!!!!";
+}
+else{
+  document.querySelector("h1").innerText = "Draw Match :)";
 }
